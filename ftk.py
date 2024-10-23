@@ -8,4 +8,8 @@ def interest_calculator(P,r,t):
 def average(x1,x2,y,z):
     y= ((x1+x2)/2 )**z 
     return y
-print(average(2,3,5,235))
+print(average(2,3,5,235)) 
+def ars(a,b,c,q):
+    d = a*b*c/q
+    return d
+print(ars(23,34,56,789))
